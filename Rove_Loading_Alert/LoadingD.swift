@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class LoadingD{
+public class LoadingD{
     
     let viewController:UIViewController?
     var alert_G:loading_alert?
