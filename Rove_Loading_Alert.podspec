@@ -81,7 +81,7 @@ A simple loading alert with an image and label.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://hash678/Rove_Loading_Alert.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://github.com/hash678/Rove_Loading_Alert.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
