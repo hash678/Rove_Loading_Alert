@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+A simple loading alert with an image and label.
+
                    DESC
 
   s.homepage     = "http://EXAMPLE/Rove_Loading_Alert"
@@ -38,7 +40,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "Copyright ROVE 2019"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
