@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		198FB594229A9F4B00B64660 /* Rove_Loading_Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 198FB592229A9F4B00B64660 /* Rove_Loading_Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198FB59D229A9F7B00B64660 /* loading_alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FB59A229A9F7A00B64660 /* loading_alert.swift */; };
+		198FB59E229A9F7B00B64660 /* LoadingD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FB59B229A9F7A00B64660 /* LoadingD.swift */; };
+		198FB59F229A9F7B00B64660 /* loading_alert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 198FB59C229A9F7A00B64660 /* loading_alert.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		198FB58F229A9F4B00B64660 /* Rove_Loading_Alert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rove_Loading_Alert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		198FB592229A9F4B00B64660 /* Rove_Loading_Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rove_Loading_Alert.h; sourceTree = "<group>"; };
 		198FB593229A9F4B00B64660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198FB59A229A9F7A00B64660 /* loading_alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loading_alert.swift; sourceTree = "<group>"; };
+		198FB59B229A9F7A00B64660 /* LoadingD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingD.swift; sourceTree = "<group>"; };
+		198FB59C229A9F7A00B64660 /* loading_alert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loading_alert.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,9 @@
 		198FB591229A9F4B00B64660 /* Rove_Loading_Alert */ = {
 			isa = PBXGroup;
 			children = (
+				198FB59A229A9F7A00B64660 /* loading_alert.swift */,
+				198FB59C229A9F7A00B64660 /* loading_alert.xib */,
+				198FB59B229A9F7A00B64660 /* LoadingD.swift */,
 				198FB592229A9F4B00B64660 /* Rove_Loading_Alert.h */,
 				198FB593229A9F4B00B64660 /* Info.plist */,
 			);
@@ -95,6 +104,7 @@
 				TargetAttributes = {
 					198FB58E229A9F4B00B64660 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -120,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198FB59F229A9F7B00B64660 /* loading_alert.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198FB59D229A9F7B00B64660 /* loading_alert.swift in Sources */,
+				198FB59E229A9F7B00B64660 /* LoadingD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		198FB598229A9F4B00B64660 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roveapps.Rove-Loading-Alert";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +301,7 @@
 		198FB599229A9F4B00B64660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
